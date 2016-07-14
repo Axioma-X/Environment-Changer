@@ -1,0 +1,1 @@
+gulp UpdateConfig --environment DEV

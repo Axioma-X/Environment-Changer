@@ -16,7 +16,7 @@ var paths = {
         dir:           "_config",
         dirTemp:       "tmp",
         mainFile:      "configuration.js",
-        actualFile:    "AmbienteActivo.txt",
+        actualFile:    "_ACTIVO----.txt",
         originFile:    "none",
         myEnvironment: "none"
     }

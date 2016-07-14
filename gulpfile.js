@@ -2,7 +2,7 @@
 // ------------
 var gulp = require("gulp"),
 
-	// Other
+    // Other
     runSequence = require("run-sequence");
 
 
@@ -12,19 +12,19 @@ require("require-dir")("./gulp_tasks");
 
 // Task: Default
 // -------------
-gulp.task("default", function() {
+gulp.task("default", function () {
     // There is no Default task
 });
 
 
 // Tasks: UpdateConfig
 // -------------------
-gulp.task("UpdateConfig", function(cb) {
-    runSequence ( "UpdateConfig-DeleteActualConfig",
-                  "UpdateConfig-CopyConfigToTemp",
-                  "UpdateConfig-RenameNewConfig",
-                  "UpdateConfig-DeleteTemp",
-                  "UpdateConfig-DeleteActualConfigEnvironment",
-                  "UpdateConfig-UpdateActualEnvironment",
-                  cb);
+gulp.task("UpdateConfig", function (cb) {
+    runSequence("UpdateConfig-DeleteActualConfig",
+        "UpdateConfig-CopyConfigToTemp",
+        "UpdateConfig-RenameNewConfig",
+        "UpdateConfig-DeleteTemp",
+        "UpdateConfig-DeleteActualConfigEnvironment",
+        "UpdateConfig-UpdateActualEnvironment",
+        cb);
 });

@@ -1,7 +1,11 @@
 {
-  "name": "Enviroment Changer",
-  "version": "v0.1",
-  "description": "Task to update your config file depends on enviroment: local, testing, production...",
+  "name": "environment_changer",
+  "version": "v0.2.0",
+  "repository": {
+    "type": "git",
+    "url": "https://bitbucket.org/AxiomaX/environment-changer.git"
+  },
+  "description": "Task to update your config file depends on enviroment: local, qa, production...",
   "main": "gulpfile.js",
   "author": "Gabriel Porras",
   "license": "MIT license",
