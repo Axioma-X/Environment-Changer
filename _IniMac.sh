@@ -1,11 +1,10 @@
-@echo off
+#!/usr/bin/env bash
 echo ===============
 echo Como es la primera vez que se carga el proyecto, se van a instalar las
 echo dependencias de NodeJS y GulpJS. Es necesario que los tenga instalados ambos.
 echo ===============
 
 
-del _IniMac.sh
-del _config\*.sh
+rm -rf _IniWindows.bat
+rm -rf _config/*.bat
 npm install
-
